@@ -1,4 +1,13 @@
 {
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "strict": true,
+    "baseUrl": "./",
+    "paths": {
+      "@reduxjs/toolkit": ["node_modules/@reduxjs/toolkit"]
+    }
+  },
   "files": [],
   "references": [
     { "path": "./tsconfig.app.json" },
